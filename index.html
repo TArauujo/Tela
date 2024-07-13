@@ -82,9 +82,7 @@
                 <div class="input-field">
                     <input type="submit" class="input-submit" value="Sign In">
                 </div>
-                <div class="forgot">
-                    <a href="#">Forgot password?</a>
-                </div>
+                
             </div>
         </div>
 
@@ -106,6 +104,18 @@
     var x = document.getElementById('login');
     var y = document.getElementById('register');
     var z = document.getElementById('btn');
+
+    // Funções da "Animação" de troca de janelas entre Login e Register
+    function login(){
+        x.style.left = "27px";
+        y.style.left = "350px";
+        z.style.left = "0px";
+    }
+    function register(){
+        x.style.left = "-350px";
+        y.style.left = "25px";
+        z.style.left = "150px";
+    }
 
 </script>
 
