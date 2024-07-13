@@ -207,7 +207,17 @@ i{
     border-radius: 10px;
     z-index: 10;
 
-    cursor: pointer;
+}
+
+#btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 145px;
+    background: #cccccd;
+    border-radius: 10px;
+    box-shadow: 2px 0px 12px rgba(0, 0, 0, 0.1);
+
 }
 
 
