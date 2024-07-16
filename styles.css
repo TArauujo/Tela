@@ -46,6 +46,7 @@ body{
     backdrop-filter: blur(15px);
     border: 3px solid rgba(255, 220, 220, 0.2);
     overflow: hidden; /* elementos que possuem dimensões fixas (como <div> com largura e altura definidas) */
+
 }
 
 .box-login{
