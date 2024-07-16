@@ -108,12 +108,12 @@
     // Funções da "Animação" de troca de janelas entre Login e Register
     function login(){
         x.style.left = "27px";
-        y.style.left = "350px";
+        y.style.right = "-350px";
         z.style.left = "0px";
     }
     function register(){
         x.style.left = "-350px";
-        y.style.left = "25px";
+        y.style.right = "25px";
         z.style.left = "150px";
     }
 
@@ -131,6 +131,23 @@
             b.style.opacity = "1";
             c.style.opacity = "0";
         }
+    }
+
+    function myRegPassword(){
+        var d = document.getElementById('regPassword');
+        var b = document.getElementById('eye-2');
+        var c = document.getElementById('eye-slash-2');
+
+        if(d.type === "password"){
+            d.type = "text";
+            b.style = "0";
+            c.style.opacity = "1";
+        }else{
+            d.type = "password";
+            b.style.opacity = "1";
+            c.style.opacity = "0";
+        }
+
     }
 
 </script>
