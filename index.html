@@ -29,7 +29,7 @@
                         <label for="logPassword">Password</label>
         
                         <div class="eye-area">
-                            <div class="eye-box" onclick="myLogPassword">
+                            <div class="eye-box" onclick="myLogPassword()">
                                 <i class="fa-regular fa-eye" id="eye"></i>
                                 <i class="fa-regular fa-eye-slash" id="eye-slash"></i>
                             </div>
@@ -69,7 +69,7 @@
                         <label for="regPassword">Password</label>
         
                         <div class="eye-area">
-                            <div class="eye-box" onclick="myRegPassword">
+                            <div class="eye-box" onclick="myRegPassword()">
                                 <i class="fa-regular fa-eye" id="eye-2"></i>
                                 <i class="fa-regular fa-eye-slash" id="eye-slash-2"></i>
                             </div>
@@ -117,7 +117,7 @@
         z.style.left = "150px";
     }
 
-    function myLogPassword{
+    function myLogPassword(){
         var a = document.getElementById('logPassword');
         var b = document.getElementById('eye');
         var c = document.getElementById('eye-slash');
